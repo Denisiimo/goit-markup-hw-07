@@ -1,0 +1,49 @@
+.specialisation__container {
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-right: 30px;
+    width: 270px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.specialisation__container:last-child {
+    margin-right: 0;
+}
+
+.specialisation {
+    display: flex;
+}
+
+.specialisation__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.specialisation__item {
+    width: 270px;
+}
+
+.specialisation__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 10px;
+}
+
+.specialisation__text {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-bottom: 0px;
+}
+
+.specialisation-section {
+    padding-top: 0;
+}
