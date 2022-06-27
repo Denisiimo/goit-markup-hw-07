@@ -57,6 +57,12 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    &:hover {
+        color: #2196F3;
+    }
+    &:focus {
+        color: #2196F3;
+    }
 }
 
 .studio {
@@ -78,11 +84,19 @@
     transform: translate(-100%);
 }
 
-.page-buttons:hover,
-.page-buttons:focus,
-.header-contacts:hover,
-.header-contacts:focus {
-    color: #2196F3;
+.header-contacts {
+    &:hover {
+        color: #2196F3;
+    }
+    &:focus {
+        color: #2196F3;
+    }
+    &:hover .header-contact-logo {
+        fill: #2196F3;
+    }
+    &:focus .header-contact-logo {
+        fill: #2196F3;
+    }
 }
 
 .navigate-list {
@@ -117,9 +131,4 @@
     margin-right: 10px;
     fill: #757575;
     cursor: pointer;
-}
-
-.header-contacts:hover .header-contact-logo,
-.header-contacts:focus .header-contact-logo{
-    fill: #2196F3;
 }

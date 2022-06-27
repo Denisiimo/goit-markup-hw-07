@@ -19,6 +19,14 @@
     border: 1px solid #AFB1B8;
     border-radius: 4px;
     margin-right: 30px;
+    &:hover {
+        border-color: #2196F3;
+        fill: #2196F3;
+    }
+    &:focus {
+        border-color: #2196F3;
+        fill: #2196F3;
+    }
 }
 
 .clients-brand-item:last-child {
@@ -32,12 +40,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.clients-brand-item:hover,
-.clients-brand-item:focus,
-.clients-brand-link:hover,
-.clients-brand-link:focus {
-    border-color: #2196F3;
-    fill: #2196F3;
+    &:hover {
+        border-color: #2196F3;
+        fill: #2196F3;
+    }
+    &:focus {
+        border-color: #2196F3;
+        fill: #2196F3;
+    }
 }
